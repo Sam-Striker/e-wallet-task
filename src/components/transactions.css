@@ -1,0 +1,93 @@
+/* TransactionTracker.css */
+
+.transaction-tracker-app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .transaction-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .transaction-form select,
+  .transaction-form input {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 150px;
+  }
+  
+  .transaction-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .transaction-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .summary {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .transaction-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transaction-list th,
+  .transaction-list td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .transaction-list th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .transaction-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .transaction-list tr:hover {
+    background-color: #ddd;
+  }
+  .budget-button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  .budget-button:hover{
+    background-color: #0056b3;
+  }
+  
